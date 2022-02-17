@@ -1,0 +1,41 @@
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+
+}
+@mixin row(){
+    margin: 5px 10px 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+@mixin link($font-size){
+    font-weight: $dt-font-weight;
+    font-size: $font-size;
+    position: relative;
+    padding-bottom: 5px;
+   
+}
+@mixin undelineRow() {
+    content: "";
+    z-index: 1;
+    background: $link-hover-color;
+    height: 1px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out
+    
+}
+@mixin flexbox($flex,  $flex-direction: null, $justify-content: null, $align-item: null){
+    display: $flex;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-item;
+    
+}
+
+@mixin newButtonStyle($params...) {
+    transition: $params;
+}

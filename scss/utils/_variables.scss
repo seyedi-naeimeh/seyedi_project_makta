@@ -1,0 +1,19 @@
+$color-palets:(success:#6fb586,danger:#ff5600,warning:#f90,light:#f4f4f4,muted:#333,tertialy:#c5bc58);
+$body-color:rgba(0, 0, 0, 0.3);
+$bt-color:#000;
+$box-color:#111118;
+$body-bg:map-get($color-palets , 'light');
+$body-size-base: 16px;
+$body-size-small: 13px;
+$body-size-large: 18px;
+$dt-font-weight:400;
+$link-color: map-get($color-palets , 'light');
+$link-hover-color: map-get($color-palets , 'success');
+$btn-color:map-get($color-palets, 'tertialy' );
+$table-cell-padding:7px;
+$table-bg:$body-bg;
+$text-muted:map-get($color-palets , 'muted');
+$text-light:map-get($color-palets , 'light');
+$text-span:rgba(0, 0, 0, 0.3);
+
+

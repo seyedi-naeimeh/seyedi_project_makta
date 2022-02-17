@@ -1,0 +1,23 @@
+.carousel-button{
+    @include position(absolute, $top: 50%);
+    border: none;
+    background: none;
+    font-size: $body-size-base * 2;
+    z-index: 2;
+    transform: translateY(-50%);
+    color: 0;
+    background-color: $body-color;
+    cursor: pointer;
+    padding: 5px;
+    &:hover{
+        color: $link-color;
+        
+    }
+    &.prev{
+        left: $body-size-base;
+    }
+    &.next{
+        right: $body-size-base;
+
+    }
+}

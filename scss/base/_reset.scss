@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+ 
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+
+body{
+  overflow-x: hidden; /*حذف اسکرول افقی*/
+  overflow-y: auto; /* اسکرول عمودی*/
+  
+  
+}
+button{
+  cursor: pointer;
+}
